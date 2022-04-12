@@ -22,23 +22,23 @@ function closeMobileMenu() {
 
 // SLIDERS
 
-$(".best-content").owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: false,
-  autoplaySpeed: 2000,
-  dots: true,
-  autoWidth: true,
-  autoplay: true,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    760: {
-      items: 2,
-    },
-    1000: {
-      items: 4,
-    },
-  },
-});
+// $(".best-content").owlCarousel({
+//   loop: true,
+//   margin: 10,
+//   nav: false,
+//   autoplaySpeed: 2000,
+//   dots: true,
+//   autoWidth: true,
+//   autoplay: true,
+//   responsive: {
+//     0: {
+//       items: 1,
+//     },
+//     760: {
+//       items: 2,
+//     },
+//     1000: {
+//       items: 4,
+//     },
+//   },
+// });

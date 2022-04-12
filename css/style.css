@@ -333,20 +333,22 @@ nav .shop-menu {
 /* ---------BEST SELLING--------- */
 
 .best-content {
-  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   justify-content: space-between;
   animation-name: item-container;
   animation-duration: 5s;
 }
-
+/* 
 .owl-prev,
 .owl-next {
   display: inline-block !important;
   font-size: 72px !important;
-}
+} */
 
 .item-box {
-  width: 280px;
+  width: 100%;
   /* background-color: #fff; */
 }
 
@@ -357,7 +359,7 @@ nav .shop-menu {
 }
 
 .item-img {
-  background: url("../assets/item.jpg") no-repeat;
+  background: url("../assets/item.jpg") no-repeat center;
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -610,8 +612,13 @@ footer a:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .best-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
   .item-box {
-    width: 300px;
+    width: 100%;
   }
 }
 
@@ -734,6 +741,24 @@ footer a:hover {
     flex-direction: column;
   }
 
+  .best-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-box {
+  width: 100%;
+}
+
+.item-img {
+  height: 250px;
+}
+
+
+
+
   .blog-grid {
     flex-direction: column;
     gap: 20px;
@@ -743,4 +768,23 @@ footer a:hover {
     flex-direction: column-reverse;
     align-items: center;
   }
+}
+
+@media screen and (min-width: 400px) and (max-width: 759px) {
+  .best-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-box {
+  width: 100%;
+}
+
+.item-img {
+  height: 250px;
+}
+
+
 }
