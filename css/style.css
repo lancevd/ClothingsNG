@@ -89,6 +89,10 @@ small,
   height: 50px;
 }
 
+.space {
+  height: 25px;
+}
+
 .section-heading {
   text-align: center;
   padding-bottom: 20px;
@@ -339,6 +343,7 @@ nav .shop-menu {
   justify-content: space-between;
   animation-name: item-container;
   animation-duration: 5s;
+  
 }
 /* 
 .owl-prev,

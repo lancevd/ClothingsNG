@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClothingsNG | Home</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav container">
+        <div id="brand">
+          <i onclick="openMobileMenu()" class="fa-solid fa-bars open-menu"></i>
+          <h2>CLOTHINGSNG</h2>
+        </div>
+
+        <div class="nav-menu">
+          <a href="#" class="active">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="shop-menu">
+          <i class="fa-solid fa-user shop-menu-icon"></i>
+          <i class="fa-regular fa-heart shop-menu-icon"></i>
+          <i class="fa-solid fa-cart-shopping shop-menu-icon"></i>
+        </div>
+      </nav>
+
+      <div class="mobile-nav">
+        <div id="brand">
+          <h2>CLOTHINGSNG</h2>
+          <i
+            onclick="closeMobileMenu()"
+            class="fa-solid fa-xmark close-menu"
+          ></i>
+        </div>
+
+        <div class="nav-menu">
+          <a href="#" class="active">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="shop-menu">
+          <i class="fa-solid fa-user shop-menu-icon"></i>
+          <i class="fa-regular fa-heart shop-menu-icon"></i>
+          <i class="fa-solid fa-cart-shopping shop-menu-icon"></i>
+        </div>
+      </div>
+
+      <div class="breadcrumb text_small container">
+        <hr />
+        <a href="#">Home</a> > <a href="#">Complete Set</a> > Complete Agbada
+      </div>
+    </header>
+
+    <div class="details-page container">
+      <div class="details-left">
+        <div class="img-showcase">
+          <img src="./assets/item.jpg" id="img-showcase" alt="" />
+        </div>
+        <div class="details-gallery">
+          <img src="./assets/item.jpg" data-id="1" alt="" />
+          <img src="./assets/item-h.jpg" data-id="2" alt="" />
+          <img src="./assets/item.jpg" data-id="3" alt="" />
+          <img src="./assets/item-h.jpg" data-id="4" alt="" />
+        </div>
+      </div>
+      <!--Details Left-->
+
+      <div class="details-right">
+        <h4>Complete Agbada With Cap</h4>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-alt"></i>
+        </div>
+
+        <div class="details-price"><h5>&#8358;25,000</h5></div>
+        <div class="space"></div>
+        <h4>About Product</h4>
+        <p class="about-product">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint hic
+          ea dignissimos deserunt aliquid? Quis quo rem molestiae atque nulla,
+          error incidunt facere quaerat corrupti? Explicabo nihil neque
+          consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Ad sint hic ea dignissimos deserunt aliquid? Quis quo rem molestiae
+          atque nulla, error incidunt facere quaerat corrupti? Explicabo nihil
+          neque consectetur.
+        </p>
+        <div class="space"></div>
+        <div class="tag-n-cat">
+          <p class="detail-product-cat">Category:</p>
+          <p>Men's Collection, Complete Wears</p>
+        </div>
+        <div class="tag-n-cat">
+          <p class="detail-product-tag">Tag:</p>
+          <p>Cap, Agbada, Native, Complete</p>
+        </div>
+
+        <div class="space"></div>
+
+        <div class="cart-btns">
+          <div class="plus-minus-btns">
+            <button class="plus-minus minus-btn">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <input type="number" name="" id="" value="1" />
+            <button class="plus-minus plus-btn">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+
+          <button class="details-cart-btn">
+            Add to Cart &nbsp;
+            <i class="fa-solid fa-cart-shopping shop-menu-icon"></i>
+          </button>
+        </div>
+        <!--Cart-btns-->
+
+        <div class="space"></div>
+        <button class="buy-btn">Buy Now</button>
+
+        <div class="space"></div>
+
+        <div class="share-product">
+          <div class="icon-holder"><i class="fa-brands fa-facebook-f"></i></div>
+
+          <div class="icon-holder"><i class="fa-brands fa-twitter"></i></div>
+
+          <div class="icon-holder">
+            <i class="fa-brands fa-pinterest-p"></i>
+          </div>
+
+          <div class="icon-holder"><i class="fa-brands fa-instagram"></i></div>
+        </div>
+      </div>
+    </div>
+    <!--Details Page-->
+
+    <div class="spacer"></div>
+    <footer>
+      <div class="footer-content container">
+        <div class="footer-up">
+          <h3>Newsletter</h3>
+          <p style="color: #fff">
+            Subscribe to our newsletter and get notified on new updates
+          </p>
+          <form action="">
+            <input type="email" placeholder="Enter your email" name="" id="" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <!--footer-up-->
+        <hr />
+        <div class="copyright">
+          <div class="copy-left">
+            &copy; ClothingsNG 2022 | All Rights Reserved
+          </div>
+
+          <div class="copy-right">
+            <a href="#">Terms & Conditions</a>
+            |
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <!--footer-content-->
+    </footer>
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
