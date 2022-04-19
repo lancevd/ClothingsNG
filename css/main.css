@@ -205,3 +205,111 @@
     cursor: pointer;
   }
 }
+
+/* ----------CHECKOUT PAGE---------- */
+
+.page-top {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: larger;
+  align-items: center;
+}
+
+.page-top .steps span {
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.separator {
+  font-size: 48px;
+}
+
+.checkout-contain {
+  display: flex;
+  gap: 20px;
+}
+
+.checkout-noti {
+  padding: 10px 0;
+}
+
+.checkout-noti a {
+  text-decoration: underline;
+}
+
+.checkout-left {
+  width: 50%;
+  padding: 20px 0;
+}
+
+.checkout-left form .form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-left form input,
+.checkout-left form select {
+  height: 30px;
+}
+
+.checkout-right {
+  width: 50%;
+  padding: 20px;
+  border: solid;
+  height: fit-content;
+}
+
+.checkout-right .checkout-details {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid gray 1px;
+  padding: 10px 0;
+}
+
+.properties {
+  color: gray;
+}
+
+.payment-opts {
+  padding: 5px 0;
+}
+
+.checkout-right button {
+  padding: 10px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.checkout-right button:hover {
+  background: #000;
+}
+
+/* ------CHECKOUT RESPONSIVENESS------ */
+
+@media screen and (max-width: 760px) {
+  .page-top {
+    display: none;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1rem;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .separator {
+    font-size: medium;
+  }
+
+  .checkout-contain {
+    flex-direction: column;
+  }
+
+  .checkout-left,
+  .checkout-right {
+    width: 100%;
+  }
+}

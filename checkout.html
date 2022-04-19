@@ -1,0 +1,244 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClothingsNG | Home</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav container">
+        <div id="brand">
+          <i onclick="openMobileMenu()" class="fa-solid fa-bars open-menu"></i>
+          <h2><a href="./index.html">CLOTHINGSNG</a></h2>
+        </div>
+
+        <div class="nav-menu">
+          <a href="#" class="active">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="shop-menu">
+          <i class="fa-solid fa-user shop-menu-icon"></i>
+          <i class="fa-regular fa-heart shop-menu-icon"></i>
+          <i class="fa-solid fa-cart-shopping shop-menu-icon"></i>
+        </div>
+      </nav>
+
+      <div class="mobile-nav">
+        <div id="brand">
+          <h2><a href="./index.html">CLOTHINGSNG</a></h2>
+          <i
+            onclick="closeMobileMenu()"
+            class="fa-solid fa-xmark close-menu"
+          ></i>
+        </div>
+
+        <div class="nav-menu">
+          <a href="#" class="active">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="shop-menu">
+          <i class="fa-solid fa-user shop-menu-icon"></i>
+          <i class="fa-regular fa-heart shop-menu-icon"></i>
+          <i class="fa-solid fa-cart-shopping shop-menu-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-top">
+        <div class="steps"><span>1</span> Shopping Cart</div>
+        <div class="separator">></div>
+        <div class="steps"><span>2</span> Shopping Cart</div>
+        <div class="separator">></div>
+        <div class="steps"><span>3</span> Shopping Cart</div>
+    </div>
+
+    <div class="checkout-noti container">
+      <p>Returning customer? <a href="#">Click here to login</a></p>
+      <p>Have a coupon? <a href="#">Click here to enter your code</a></p>
+    </div>
+
+
+    <div class="checkout-contain container">
+      <div class="checkout-left">
+        BILLING DETAILS
+
+        <hr />
+
+        <div class="space"></div>
+
+        <form action="">
+          <div class="form-field col-2">
+            <label for="">First Name *</label>
+            <input type="text" name="first-name" id="" required />
+          </div>
+
+          <div class="form-field col-2">
+            <label for="">Last Name *</label>
+            <input type="text" name="last-name" id="" required />
+          </div>
+
+          <div class="form-field">
+            <label for="">Company Name</label>
+            <input type="text" name="Company" id="" />
+          </div>
+
+          <div class="form-field">
+            <label for="">State *</label>
+            <select name="states" id="" required>
+              <option value="Lagos">Lagos</option>
+              <option value="Kwara">Kwara</option>
+              <option value="Abuja">Abuja</option>
+              <option value="Osun">Osun</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="">Address *</label>
+            <input type="text" name="address" id="" required />
+          </div>
+
+          <div class="form-field">
+            <label for="">Phone *</label>
+            <input type="number" name="phone" id="" required />
+          </div>
+
+          <div class="form-field">
+            <label for="">Email *</label>
+            <input type="email" name="email" id="" required />
+          </div>
+
+          <div class="form-field">
+            <label for="">Comments</label>
+            <textarea name="comments" id="" cols="30" rows="10"></textarea>
+          </div>
+        </form>
+      </div>
+
+      <div class="checkout-right">
+        YOUR ORDER
+        <hr />
+
+        <div class="space"></div>
+
+        <div class="Checkout-details">
+          <div class="checkout-item-details">
+            <div class="cart-item-name">
+              Complete Agbada with Cap x <span>2</span>
+              <div class="properties">Color: <span>red</span></div>
+            </div>
+          </div>
+
+          <div class="checkout-item-price">&#8358;20,000</div>
+        </div>
+
+        <div class="Checkout-details">
+          <div class="checkout-item-details">
+            <div class="cart-item-name">
+              Kente Top x <span>2</span>
+              <div class="properties">Color: <span>black</span></div>
+            </div>
+          </div>
+
+          <div class="checkout-item-price">&#8358;50,000</div>
+        </div>
+
+        <div class="Checkout-details">
+            <p class="shipping">Shipping Fee: </p>
+            <p class="shipping-price">&#8358;500</span>
+        </div>
+
+        <hr />
+
+        <div class="Checkout-details">
+            <p class="total">Total: </p>
+            <p><span>&#8358;120,000</span></p>
+        </div>
+         
+
+        <div class="payment" action="">
+            <div class="payment-opts">
+                <input type="radio" name="payment-method" id="" />
+                <label for="">Direct Bank Transfer</label>
+            </div>
+
+            <div class="payment-opts">
+                <input type="radio" name="payment-method" id="" checked />
+                <label for="">Pay With Card</label>
+            </div>
+
+          <input type="checkbox" name="agree" id="" required />
+          <label for=""
+            >I have read the terms and conditions, and I agree.</label
+          >
+        </div>
+        <button type="submit">Place Order</button>
+      </div>
+      <!--checkout-right-->
+    </div>
+    <!--checkout-contain-->
+
+
+    <div class="spacer"></div>
+    <footer>
+      <div class="footer-content container">
+        <div class="footer-up">
+          <h3>Newsletter</h3>
+          <p style="color: #fff">
+            Subscribe to our newsletter and get notified on new updates
+          </p>
+          <form action="">
+            <input type="email" placeholder="Enter your email" name="" id="" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <!--footer-up-->
+        <hr />
+        <div class="copyright">
+          <div class="copy-left">
+            &copy; ClothingsNG 2022 | All Rights Reserved
+          </div>
+
+          <div class="copy-right">
+            <a href="#">Terms & Conditions</a>
+            |
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <!--footer-content-->
+    </footer>
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
