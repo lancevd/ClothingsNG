@@ -252,7 +252,10 @@
 
 .checkout-left form input,
 .checkout-left form select {
-  height: 30px;
+  height: 40px;
+  border: solid 1px #cfcfcf;
+  outline: none;
+  padding: 2px 5px;
 }
 
 .checkout-right {
@@ -287,6 +290,15 @@
   background: #000;
 }
 
+
+.success-box {
+  width: 80%;
+  margin: auto;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5%;
+}
+
 /* ------CHECKOUT RESPONSIVENESS------ */
 
 @media screen and (max-width: 760px) {
@@ -313,3 +325,6 @@
     width: 100%;
   }
 }
+
+
+

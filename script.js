@@ -20,6 +20,29 @@ function closeMobileMenu() {
     `;
 }
 
+
+// Payment Message
+
+let checkoutContain = document.querySelector(".checkout-contain");
+let successBox = document.querySelector(".success-box");
+let checkoutNoti = document.querySelector(".checkout-noti");
+let orderBtn = document.getElementById("order-btn-checkout");
+
+function showSuccess () {
+  successBox.classList.remove('hide')
+  checkoutContain.style.display = 'none'
+  checkoutNoti.style.display = 'none'
+}
+
+function redirect () {
+  window.location.href = "./index.html";
+}
+
+orderBtn.addEventListener('click', showSuccess)
+// orderBtn.addEventListener("click", setTimeout(() => {
+//   redirect;
+// }, 3000));
+
 // SLIDERS
 
 // $(".best-content").owlCarousel({
